@@ -1,10 +1,10 @@
 import React from 'react'
-import './Kids.css'
+import './kids.css'
 
 function Kids() {
   return (
     <div>
-      
+      <p>esta es la categoria kids</p>
     </div>
   )
 }

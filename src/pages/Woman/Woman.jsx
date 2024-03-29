@@ -1,10 +1,10 @@
 import React from 'react'
-import './Woman.css'
+import './woman.css'
 
 function Woman() {
   return (
     <div>
-      
+      <p>Esta es la categoria Woman</p>
     </div>
   )
 }
