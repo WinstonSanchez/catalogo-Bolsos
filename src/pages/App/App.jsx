@@ -1,9 +1,9 @@
-import AppRoutes from '../../routes/AppRoutes';
+import AppUI from '../AppUI/AppUI';
 import './App.css';
 
 function App() {
   return (
-    <AppRoutes />
+    <AppUI />
   );
 }
 
