@@ -1,0 +1,12 @@
+.li-nav{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.navlink-nav{
+    text-decoration: none;
+    color: white;
+}
+.underline-navlink{
+    text-decoration: underline;
+}

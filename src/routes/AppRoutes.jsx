@@ -7,19 +7,21 @@ import Man from '../pages/Man/man';
 import Kids from '../pages/Kids/kids';
 import NotFound from '../pages/NotFound/notFound';
 import Footer from '../components/Footer/footer';
-
+import './AppRoutes.css'
 
 function AppRoutes() {
   return (
     <BrowserRouter>
       <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/woman' element={<Woman />}/>
-        <Route path='/man' element={<Man />}/>
-        <Route path='/kids' element={<Kids />}/>
-        <Route path="*" element={<NotFound />}/>
-      </Routes>
+      <div className='div-layout'>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/woman' element={<Woman />}/>
+          <Route path='/man' element={<Man />}/>
+          <Route path='/kids' element={<Kids />}/>
+          <Route path="*" element={<NotFound />}/>
+        </Routes>
+      </div>
       <Footer />
     </BrowserRouter>
   )
