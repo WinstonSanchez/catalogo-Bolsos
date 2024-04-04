@@ -14,10 +14,10 @@ function footer() {
         <li>
           <p>Nuestras redes:</p>
           <div className='icons-container'>
-            <a href="https://www.facebook.com/"><FacebookIcon className='logo-color' /></a>
-            <a href="https://www.instagram.com"><InstagramIcon className='logo-color' /></a>
+            <a href="https://es-la.facebook.com/wistonandressanchezlazar"><FacebookIcon className='logo-color' /></a>
+            <a href="https://www.instagram.com/winston.toto/"><InstagramIcon className='logo-color' /></a>
             <a href="https://twitter.com/"><TwitterIcon className='logo-color' /></a>
-            <a href="https://web.whatsapp.com/"><WhatsappIcon className='logo-color' /></a>
+            <a href="https://wa.link/97cyb3"><WhatsappIcon className='logo-color' /></a>
           </div>
         </li>
       </ul>

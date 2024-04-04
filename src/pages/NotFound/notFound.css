@@ -1,0 +1,19 @@
+.notFound-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+}
+.logo-notFound{
+    width: 30vw;
+    height: 30vw;
+    fill: #2d2d2d;
+}
+.notFound-container p{
+    padding-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2d2d2d;
+}

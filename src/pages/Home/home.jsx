@@ -1,10 +1,26 @@
+import {CatalogueContext} from '../../context/CatalogueContext'
+import CardProduct from '../../components/CardProduct/cardProduct';
 import React from 'react'
 import './home.css'
 
 function Home() {
+  const {products} = React.useContext(CatalogueContext);
+
   return (
     <div>
-      <p>Funciona!!</p>
+      <h1>Home</h1>
+      <div className='card-container'>
+        {products.map(item => (
+          <CardProduct 
+            key={item.title}
+            title={item.title} 
+            category={item.category} 
+            image={item.image}
+            description={item.description}
+            price={item.price}
+          />
+        ))}
+      </div>
     </div>
   )
 }
