@@ -1,13 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import './cardProduct.css';
 
-function cardProduct({title, category, image, description, price}) {
+function CardProduct({title, category, image, description, price}) {
+  const navigate = useNavigate();
+
   return (
     <div className='card-div'>
         <div className='card-content'>
           <div className='card-title'>
             <p>{title}</p>
-            <a href={`/catalogo-Bolsos/${category}`}>{category}</a>
+            <div onClick={() => navigate(`/catalogo-Bolsos/${category}`)}>{category}</div>
           </div>
           <div className='card-img'>
             <img src={image} alt={title} />
@@ -23,4 +26,4 @@ function cardProduct({title, category, image, description, price}) {
   )
 }
 
-export default cardProduct
+export default CardProduct
