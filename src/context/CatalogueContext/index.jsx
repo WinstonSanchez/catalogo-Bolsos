@@ -1,9 +1,7 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 const CatalogueContext = React.createContext();
 
 function CatalogueProvider({ children }) {
-
     const products = [{
         title: "Bolso Mujer 1",
         category: "woman",
@@ -41,11 +39,18 @@ function CatalogueProvider({ children }) {
         price: "321",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel impedit quaerat commodi necessitatibus accusantium",
     }];
+    const [textSearch, setTextSearch] = useState("");
 
+    const productSearched = products.filter(item => {
+        const productTitle = item.title.toLowerCase();
+        const searchedTitle = textSearch.toLowerCase();
+        return productTitle.includes(searchedTitle)
+    });
 
     return (
     <CatalogueContext.Provider value={{
-        products
+        productSearched,
+        setTextSearch,
     }}>
         {children}
     </CatalogueContext.Provider>

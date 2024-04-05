@@ -1,3 +1,17 @@
 .search-container{
-    color: white;
+    width: 30vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+}
+.search-container input{
+    padding-left: 10px;
+    width: 95%;
+    border: none;
+    font-size: 1.1rem;
+}
+.search-container input:focus{
+    outline: none;
 }

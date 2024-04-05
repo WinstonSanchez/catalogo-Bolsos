@@ -4,13 +4,13 @@ import React from 'react'
 import './woman.css'
 
 function Woman() {
-  const {products} = React.useContext(CatalogueContext);
+  const {productSearched} = React.useContext(CatalogueContext);
 
   return (
     <div>
       <h1>Woman</h1>
       <div className='card-container'>
-        {products.filter(item => item.category === "woman").map(item => (
+        {productSearched.filter(item => item.category === "woman").map(item => (
           <CardProduct 
             key={item.title}
             title={item.title} 
