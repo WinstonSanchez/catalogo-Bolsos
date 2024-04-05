@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/catalogo-Bolsos/static/css/main.b13755f8.css",
-    "main.js": "/catalogo-Bolsos/static/js/main.8e30b214.js",
+    "main.css": "/catalogo-Bolsos/static/css/main.7b1318b4.css",
+    "main.js": "/catalogo-Bolsos/static/js/main.8be01af3.js",
     "static/js/453.76f6833a.chunk.js": "/catalogo-Bolsos/static/js/453.76f6833a.chunk.js",
     "static/media/logo.png": "/catalogo-Bolsos/static/media/logo.d174c47f8a6c746e813d.png",
     "static/media/instagram.svg": "/catalogo-Bolsos/static/media/instagram.9683973671d1c5c5c8c22d3c43196a21.svg",
@@ -11,12 +11,12 @@
     "static/media/facebook.svg": "/catalogo-Bolsos/static/media/facebook.0a6d989971c05e6fcb11563bb598c162.svg",
     "static/media/search.svg": "/catalogo-Bolsos/static/media/search.d4eb7c2fa04d7c91c1170f7719bfb23a.svg",
     "static/media/twitter-x.svg": "/catalogo-Bolsos/static/media/twitter-x.caa446f740fd3cb6df775a3f91823896.svg",
-    "main.b13755f8.css.map": "/catalogo-Bolsos/static/css/main.b13755f8.css.map",
-    "main.8e30b214.js.map": "/catalogo-Bolsos/static/js/main.8e30b214.js.map",
+    "main.7b1318b4.css.map": "/catalogo-Bolsos/static/css/main.7b1318b4.css.map",
+    "main.8be01af3.js.map": "/catalogo-Bolsos/static/js/main.8be01af3.js.map",
     "453.76f6833a.chunk.js.map": "/catalogo-Bolsos/static/js/453.76f6833a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b13755f8.css",
-    "static/js/main.8e30b214.js"
+    "static/css/main.7b1318b4.css",
+    "static/js/main.8be01af3.js"
   ]
 }
