@@ -11,10 +11,10 @@ function navBar() {
         <div className='div-nav-container'>
           <ul className='ul-nav'>
             <img src={Logo} alt="Logo-Bolsos" className='nav-logo' />
-            <NavItem route={'/'} name={"Home"}/>
-            <NavItem route={'/woman'} name={"Woman"}/>
-            <NavItem route={'/man'} name={"Man"}/>
-            <NavItem route={'/kids'} name={"Kids"}/>
+            <NavItem route={'/catalogo-Bolsos/'} name={"Home"}/>
+            <NavItem route={'/catalogo-Bolsos/woman'} name={"Woman"}/>
+            <NavItem route={'/catalogo-Bolsos/man'} name={"Man"}/>
+            <NavItem route={'/catalogo-Bolsos/kids'} name={"Kids"}/>
           </ul>
 
           <div>

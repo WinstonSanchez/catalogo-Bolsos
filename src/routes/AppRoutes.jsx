@@ -9,10 +9,10 @@ import React from 'react';
 function AppRoutes() {
   return (
     <Routes>
-      <Route path='/' element={<Home />}/>
-      <Route path='/woman' element={<Woman />}/>
-      <Route path='/man' element={<Man />}/>
-      <Route path='/kids' element={<Kids />}/>
+      <Route path='/catalogo-Bolsos/' element={<Home />}/>
+      <Route path='/catalogo-Bolsos/woman' element={<Woman />}/>
+      <Route path='/catalogo-Bolsos/man' element={<Man />}/>
+      <Route path='/catalogo-Bolsos/kids' element={<Kids />}/>
       <Route path="*" element={<NotFound />}/>
     </Routes>
   )

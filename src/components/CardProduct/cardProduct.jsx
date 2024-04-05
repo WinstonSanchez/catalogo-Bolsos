@@ -7,7 +7,7 @@ function cardProduct({title, category, image, description, price}) {
         <div className='card-content'>
           <div className='card-title'>
             <p>{title}</p>
-            <a href={`/${category}`}>{category}</a>
+            <a href={`/catalogo-Bolsos/${category}`}>{category}</a>
           </div>
           <div className='card-img'>
             <img src={image} alt={title} />
